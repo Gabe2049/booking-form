@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html>
+<lang = en>
+<head>   
+<meta charset="UTF-8">
+<meta name="Tickets" content="Tickets">
+<title>Tickets</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form id="form">
+
+    <script defer src="form script.js"></script>
+    <fieldset>
+   <div>
+    <label>first name</label>
+    <input type="text" id="fist name" name="first name" required placeholder="Type here">
+    </div><div>
+        <label>last name</label>
+        <input type="text" id="last name" name="last name" required placeholder="Type here">
+        </div><div>
+    <label>email address</label>
+    <input type="text" id="Address" name="Address" required placeholder="Type here">
+    </div></fieldset>
+    <legend></legend>
+    <fieldset>
+    <div>
+<label>avaliable shows</label>
+<select name ="shows" id="shows" required>
+    <option value="0">-select a show</option>
+    <option value="79" id ="phantom of the opera">phantom of the opera</option>
+<option value="67" id ="lion king">lion king</option>
+<option value="85" id ="hamilton">hamilton</option>
+<option value="83" id ="miss saigon"> miss saigon</option>
+</select>
+<p id="showoutput"></p>
+    </div><div>
+<label>number of seats needed</label>
+<input type= "number" id="seats" name="seats" required min ="0">
+<div></div>
+<label>method of delivery</label>
+<select id= "delivery" required>
+<option value="100">-select a delivery type-</option>
+<option value="3.99" id="posted">posted</option>
+<option value= "1.50" id="box office">box office</option>
+<option value= "1" id= "e-ticket">e-ticket</option>
+</select>
+<p id="deliveryoutput"></p>  
+</div>
+<button id="button" type="button">Book
+</button>
+
+    </fieldset>
+
+</form>
+<div id="outputdiv">
+<p id="output1"></p>
+<p id="output2"></p>
+<p id="output3"></p>
+<p id="output4"></p>
+<p id="output5"></p>
+</div>
+
+</body>
+</html>
